@@ -1,0 +1,22 @@
+{
+  "name": "codenames-game",
+  "version": "1.0.0",
+  "description": "Codenames game with spymaster and guesser views, integrated with Supabase",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",        
+    "build": "next build",    
+    "start": "next start"     
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0", 
+    "next": "^13.0.0",                
+    "react": "^18.0.0",               
+    "react-dom": "^18.0.0",           
+    "uuid": "^9.0.0"                
+  },
+  "devDependencies": {},
+  "keywords": ["nextjs", "supabase", "codenames", "game"],
+  "author": "Your Name",
+  "license": "MIT"
+}
